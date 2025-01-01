@@ -70,27 +70,27 @@ If there is an error starting the MongoDB server, the project will automatically
 ## Project Structure
 
 ### Project Files
-- `app.js` - Entry point of the application
-- `package.json` - Contains project metadata and dependencies
-- `v2/mongo.js` - MongoDB connection setup
-- `v2/Task.js` - Task model definition
-- `v1/routes.js` - Contains v1 route definitions
-- `v1/controllers.js` - Contains controller logic
-- `v1/db.json` - JSON file for storing tasks (if not using MongoDB)
-- `v2/.env.example` - Sample .env file for MongoDB configuration
-- `v2/routes.mongo.js` - Contains v2 route definitions
-- `v2/controllers.mongo.js` - Contains controller logic for MongoDB
-- `v2/asyncHandler.js` - Boilerplate for handling async functions
+- `/app.js` - Entry point of the application
+- `/package.json` - Contains project metadata and dependencies
+- `/v1/routes.js` - Contains v1 route definitions
+- `/v1/controllers.js` - Contains controller logic
+- `/v1/db.json` - JSON file for storing tasks (if not using MongoDB)
+- `/v2/mongo.js` - MongoDB connection setup
+- `/v2/Task.js` - Task model definition
+- `/v2/.env.example` - Sample .env file for MongoDB configuration
+- `/v2/routes.mongo.js` - Contains v2 route definitions
+- `/v2/controllers.mongo.js` - Contains controller logic for MongoDB
+- `/v2/asyncHandler.js` - Boilerplate for handling async functions
 
 ### Auto-Generated Files
-- `node_modules/` - Contains all project dependencies
-- `package-lock.json` - Lock file for npm dependencies
+- `/node_modules/` - Contains all project dependencies
+- `/package-lock.json` - Lock file for npm dependencies
 
 ### Config Files You Need to Create
-- `v2/.env` - MongoDB Environment variables file (not included in the repository) if you want to use v2 routes
+- `/v2/.env` - MongoDB Environment variables file (not included in the repository) if you want to use v2 routes
 
 ### README Files
-- `README.md` - Contains project information and instructions
+- `/README.md` - Contains project information and instructions
 
 ## Usage
 
